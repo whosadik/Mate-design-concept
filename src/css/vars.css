@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #1c212d;
+  --secondary-color: #479a5f;
+  --background-color: #fafaf7;
+  --text-color: #000000;
+  --text-secondary-color: #666666;
+  --header-text-color: #1c212d;
+  --border-radius: 12px;
+  --font-family: "DM Sans", sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+}

@@ -1,0 +1,11 @@
+.all-ads-page {
+  padding: 16px;
+  font-family: sans-serif;
+  padding-top: 75px;
+}
+
+.ads-list-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

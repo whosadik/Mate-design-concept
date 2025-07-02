@@ -1,0 +1,44 @@
+.home {
+  padding: 16px;
+  background-color: var(--background-color);
+  font-family: sans-serif;
+
+  padding-top: 75px;
+}
+
+.show-more-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.show-more-btn {
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+}
+
+.ads-list-horizontal {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 8px;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.ads-list::-webkit-scrollbar {
+  height: 6px;
+}
+
+.ads-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 3px;
+}

@@ -1,0 +1,37 @@
+.filter-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.filters-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding-bottom: 4px;
+  scroll-behavior: smooth;
+}
+
+.filters-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-btn-scroll {
+  flex: 0 0 auto;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  border: none;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.filter-btn-scroll.active {
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 600;
+}

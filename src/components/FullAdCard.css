@@ -1,0 +1,108 @@
+.full-ad-card {
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.full-ad-image-wrapper {
+  position: relative;
+}
+
+.full-ad-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.full-ad-fav-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.full-ad-info {
+  padding: 12px;
+}
+
+.full-ad-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.tag.yellow {
+  background-color: #e6e600;
+  color: #333;
+}
+
+.tag.light {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.full-ad-location {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.full-ad-location-icon {
+  margin-right: 6px;
+  color: #e53935;
+}
+
+.full-ad-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0 12px 0;
+  color: var(--primary-color);
+}
+
+.full-ad-price {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.full-ad-period {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+}
+.full-ad-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #444;
+  margin: 6px 0;
+}
+
+.full-ad-details span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.full-ad-details svg {
+  color: #888;
+  font-size: 14px;
+}
